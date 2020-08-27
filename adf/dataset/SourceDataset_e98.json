@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_e98",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mpazurestorageaccount",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "test.txt",
+				"folderPath": "test",
+				"fileSystem": "mpblobcontainer"
+			}
+		}
+	}
+}
